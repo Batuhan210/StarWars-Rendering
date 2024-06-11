@@ -1,0 +1,119 @@
+body {
+  background-image: url("/images/starwars-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  margin: 15px;
+  font-family: sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid #ffffff;
+  padding: 15px;
+}
+
+/* Hamburger menü için  */
+.show {
+  display: block;
+}
+
+.article {
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.494);
+  padding: 15px;
+  margin: 15px 0 30px;
+}
+
+.article .article-title {
+  padding: 15px 0 20px;
+}
+
+.blog-aside .widget {
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.494);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.blog-aside .widget-body {
+  padding: 15px;
+}
+
+.blog-aside .widget-title {
+  padding: 15px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.widget-title-h3 h3 {
+  border-bottom: 1px solid white;
+  padding: 15px;
+}
+
+.blog-aside .widget-author p {
+  margin: 0;
+}
+
+.blog-aside .post-aside {
+  margin-bottom: 15px;
+}
+
+.blog-aside .post-aside .post-aside-meta {
+  padding-bottom: 10px;
+}
+
+footer {
+  justify-content: space-between;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.494);
+  width: 100%;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+
+.card {
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 18rem;
+  height: auto;
+}
+
+
+.card-body {
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+
+
+
